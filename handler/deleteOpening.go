@@ -11,11 +11,11 @@ import (
 // @BasePath /api/v1
 
 // @Summary Delete opening
-// @Description Delete a job opening
+// @Description Delete a new job opening
 // @Tags Openings
 // @Accept json
 // @Produce json
-// @Param request body CreateOpeningRequest true "Request Body"
+// @Param id query string true "Opening identification"
 // @Success 200 {object} DeleteOpeningResponse
 // @Failure 400 {object} ErrorResponse
 // @Failure 404 {object} ErrorResponse
